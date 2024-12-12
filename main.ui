@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>658</width>
+    <height>307</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableWidget" name="tableWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>631</width>
+     <height>192</height>
+    </rect>
+   </property>
+   <column>
+    <property name="text">
+     <string>id</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Название сорта</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>степень обжарки</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Молотый/В зернаях</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Описание вкуса</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Цена</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Объем упаковки</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>260</y>
+     <width>91</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>FIND</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
